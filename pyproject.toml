@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "first-project"
+version = "0.1.0"
+description = ""
+authors = ["abhisingh1205 <abhishek08.psit@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+uvicorn = "^0.27.1"
+fastapi = "^0.109.2"
+pydantic = "^2.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
